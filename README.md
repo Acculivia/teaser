@@ -4,7 +4,7 @@
 
 teaser is a game I made with Apple's SpriteKit. Basically, it's similar to a barrage game.
 
-Before every stage start you have a short time to adjust your position, during which you're invulnerable. Then let's rocks.
+Before a stage starts you have a short time to adjust your position and see where enemies are, during which you're invulnerable. Then let's rocks.
 
 It only contains 5 stages. I was to make music to suit it, but now the music should only stay in my mind.
 
