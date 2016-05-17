@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40674B51CE0D67A00FEA821 /* Existence-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C40674B41CE0D67A00FEA821 /* Existence-Light.ttf */; };
+		C40674B91CE0DE5300FEA821 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C40674B81CE0DE5300FEA821 /* Roboto-Light.ttf */; };
+		C40674BB1CE0ED1800FEA821 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C40674BA1CE0ED1800FEA821 /* Roboto-Thin.ttf */; };
+		C450C7281CBFAE7D0068986C /* Teaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C450C7271CBFAE7D0068986C /* Teaser.swift */; };
+		C450C72E1CC8BC530068986C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C450C72D1CC8BC530068986C /* Enemy.swift */; };
 		C4A12CEA1C8856A700EFA524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12CE91C8856A700EFA524 /* AppDelegate.swift */; };
-		C4A12CEC1C8856A700EFA524 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4A12CEB1C8856A700EFA524 /* GameScene.sks */; };
 		C4A12CEE1C8856A700EFA524 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12CED1C8856A700EFA524 /* GameScene.swift */; };
 		C4A12CF01C8856A700EFA524 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12CEF1C8856A700EFA524 /* GameViewController.swift */; };
 		C4A12CF31C8856A700EFA524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A12CF11C8856A700EFA524 /* Main.storyboard */; };
-		C4A12CF51C8856A700EFA524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A12CF41C8856A700EFA524 /* Assets.xcassets */; };
 		C4A12CF81C8856A700EFA524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A12CF61C8856A700EFA524 /* LaunchScreen.storyboard */; };
-		C4A12D031C8856A700EFA524 /* woofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12D021C8856A700EFA524 /* woofTests.swift */; };
-		C4A12D0E1C8856A700EFA524 /* woofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12D0D1C8856A700EFA524 /* woofUITests.swift */; };
+		C4A12D1E1C88587200EFA524 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12D1D1C88587200EFA524 /* Player.swift */; };
+		C4C787131CDF1CFC000F3619 /* StartSquareAura.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C787121CDF1CFC000F3619 /* StartSquareAura.swift */; };
+		C4C787151CDF6E16000F3619 /* StageScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C787141CDF6E16000F3619 /* StageScript.swift */; };
+		C4C787191CE06847000F3619 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C787181CE06847000F3619 /* StartScene.swift */; };
+		C4FE71901CCDF115003CDF3A /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE718F1CCDF115003CDF3A /* Stage.swift */; };
+		C4FE71D01CD053AF003CDF3A /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE71CF1CD053AF003CDF3A /* ScoreLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +43,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4A12CE61C8856A700EFA524 /* woof.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woof.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40674B41CE0D67A00FEA821 /* Existence-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Existence-Light.ttf"; path = "../Existence-Light.ttf"; sourceTree = "<group>"; };
+		C40674B81CE0DE5300FEA821 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		C40674BA1CE0ED1800FEA821 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		C450C7271CBFAE7D0068986C /* Teaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teaser.swift; sourceTree = "<group>"; };
+		C450C72D1CC8BC530068986C /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		C4A12CE61C8856A700EFA524 /* teaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A12CE91C8856A700EFA524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4A12CEB1C8856A700EFA524 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C4A12CED1C8856A700EFA524 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C4A12CEF1C8856A700EFA524 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C4A12CF21C8856A700EFA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4A12CF41C8856A700EFA524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A12CF71C8856A700EFA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A12CF91C8856A700EFA524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4A12CFE1C8856A700EFA524 /* woofTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woofTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4A12D021C8856A700EFA524 /* woofTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woofTests.swift; sourceTree = "<group>"; };
-		C4A12D041C8856A700EFA524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4A12D091C8856A700EFA524 /* woofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4A12D0D1C8856A700EFA524 /* woofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woofUITests.swift; sourceTree = "<group>"; };
-		C4A12D0F1C8856A700EFA524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A12CFE1C8856A700EFA524 /* teaser.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teaser.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A12D091C8856A700EFA524 /* teaser.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teaser.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A12D1D1C88587200EFA524 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../Player.swift; sourceTree = "<group>"; };
+		C4C787121CDF1CFC000F3619 /* StartSquareAura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartSquareAura.swift; sourceTree = "<group>"; };
+		C4C787141CDF6E16000F3619 /* StageScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StageScript.swift; path = ../StageScript.swift; sourceTree = "<group>"; };
+		C4C787181CE06847000F3619 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		C4FE718F1CCDF115003CDF3A /* Stage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		C4FE71CF1CD053AF003CDF3A /* ScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreLabel.swift; path = ../ScoreLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +93,7 @@
 		C4A12CDD1C8856A700EFA524 = {
 			isa = PBXGroup;
 			children = (
-				C4A12CE81C8856A700EFA524 /* woof */,
-				C4A12D011C8856A700EFA524 /* woofTests */,
-				C4A12D0C1C8856A700EFA524 /* woofUITests */,
+				C4A12CE81C8856A700EFA524 /* teaser */,
 				C4A12CE71C8856A700EFA524 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,52 +101,44 @@
 		C4A12CE71C8856A700EFA524 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4A12CE61C8856A700EFA524 /* woof.app */,
-				C4A12CFE1C8856A700EFA524 /* woofTests.xctest */,
-				C4A12D091C8856A700EFA524 /* woofUITests.xctest */,
+				C4A12CE61C8856A700EFA524 /* teaser.app */,
+				C4A12CFE1C8856A700EFA524 /* teaser.xctest */,
+				C4A12D091C8856A700EFA524 /* teaser.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4A12CE81C8856A700EFA524 /* woof */ = {
+		C4A12CE81C8856A700EFA524 /* teaser */ = {
 			isa = PBXGroup;
 			children = (
 				C4A12CE91C8856A700EFA524 /* AppDelegate.swift */,
-				C4A12CEB1C8856A700EFA524 /* GameScene.sks */,
-				C4A12CED1C8856A700EFA524 /* GameScene.swift */,
 				C4A12CEF1C8856A700EFA524 /* GameViewController.swift */,
+				C4C787141CDF6E16000F3619 /* StageScript.swift */,
+				C4C787181CE06847000F3619 /* StartScene.swift */,
+				C4C787121CDF1CFC000F3619 /* StartSquareAura.swift */,
+				C4A12CED1C8856A700EFA524 /* GameScene.swift */,
+				C4FE718F1CCDF115003CDF3A /* Stage.swift */,
+				C450C7271CBFAE7D0068986C /* Teaser.swift */,
+				C4FE71CF1CD053AF003CDF3A /* ScoreLabel.swift */,
+				C4A12D1D1C88587200EFA524 /* Player.swift */,
+				C450C72D1CC8BC530068986C /* Enemy.swift */,
+				C40674B41CE0D67A00FEA821 /* Existence-Light.ttf */,
+				C40674B81CE0DE5300FEA821 /* Roboto-Light.ttf */,
+				C40674BA1CE0ED1800FEA821 /* Roboto-Thin.ttf */,
 				C4A12CF11C8856A700EFA524 /* Main.storyboard */,
-				C4A12CF41C8856A700EFA524 /* Assets.xcassets */,
 				C4A12CF61C8856A700EFA524 /* LaunchScreen.storyboard */,
 				C4A12CF91C8856A700EFA524 /* Info.plist */,
 			);
+			name = teaser;
 			path = woof;
-			sourceTree = "<group>";
-		};
-		C4A12D011C8856A700EFA524 /* woofTests */ = {
-			isa = PBXGroup;
-			children = (
-				C4A12D021C8856A700EFA524 /* woofTests.swift */,
-				C4A12D041C8856A700EFA524 /* Info.plist */,
-			);
-			path = woofTests;
-			sourceTree = "<group>";
-		};
-		C4A12D0C1C8856A700EFA524 /* woofUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C4A12D0D1C8856A700EFA524 /* woofUITests.swift */,
-				C4A12D0F1C8856A700EFA524 /* Info.plist */,
-			);
-			path = woofUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4A12CE51C8856A700EFA524 /* woof */ = {
+		C4A12CE51C8856A700EFA524 /* teaser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A12D121C8856A700EFA524 /* Build configuration list for PBXNativeTarget "woof" */;
+			buildConfigurationList = C4A12D121C8856A700EFA524 /* Build configuration list for PBXNativeTarget "teaser" */;
 			buildPhases = (
 				C4A12CE21C8856A700EFA524 /* Sources */,
 				C4A12CE31C8856A700EFA524 /* Frameworks */,
@@ -146,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = woof;
+			name = teaser;
 			productName = woof;
-			productReference = C4A12CE61C8856A700EFA524 /* woof.app */;
+			productReference = C4A12CE61C8856A700EFA524 /* teaser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4A12CFD1C8856A700EFA524 /* woofTests */ = {
+		C4A12CFD1C8856A700EFA524 /* teaserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A12D151C8856A700EFA524 /* Build configuration list for PBXNativeTarget "woofTests" */;
+			buildConfigurationList = C4A12D151C8856A700EFA524 /* Build configuration list for PBXNativeTarget "teaserTests" */;
 			buildPhases = (
 				C4A12CFA1C8856A700EFA524 /* Sources */,
 				C4A12CFB1C8856A700EFA524 /* Frameworks */,
@@ -164,14 +166,14 @@
 			dependencies = (
 				C4A12D001C8856A700EFA524 /* PBXTargetDependency */,
 			);
-			name = woofTests;
+			name = teaserTests;
 			productName = woofTests;
-			productReference = C4A12CFE1C8856A700EFA524 /* woofTests.xctest */;
+			productReference = C4A12CFE1C8856A700EFA524 /* teaser.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4A12D081C8856A700EFA524 /* woofUITests */ = {
+		C4A12D081C8856A700EFA524 /* teaserUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4A12D181C8856A700EFA524 /* Build configuration list for PBXNativeTarget "woofUITests" */;
+			buildConfigurationList = C4A12D181C8856A700EFA524 /* Build configuration list for PBXNativeTarget "teaserUITests" */;
 			buildPhases = (
 				C4A12D051C8856A700EFA524 /* Sources */,
 				C4A12D061C8856A700EFA524 /* Frameworks */,
@@ -182,9 +184,9 @@
 			dependencies = (
 				C4A12D0B1C8856A700EFA524 /* PBXTargetDependency */,
 			);
-			name = woofUITests;
+			name = teaserUITests;
 			productName = woofUITests;
-			productReference = C4A12D091C8856A700EFA524 /* woofUITests.xctest */;
+			productReference = C4A12D091C8856A700EFA524 /* teaser.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,6 +201,7 @@
 				TargetAttributes = {
 					C4A12CE51C8856A700EFA524 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D9584TTTTX;
 					};
 					C4A12CFD1C8856A700EFA524 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -210,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4A12CE11C8856A700EFA524 /* Build configuration list for PBXProject "woof" */;
+			buildConfigurationList = C4A12CE11C8856A700EFA524 /* Build configuration list for PBXProject "teaser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4A12CE51C8856A700EFA524 /* woof */,
-				C4A12CFD1C8856A700EFA524 /* woofTests */,
-				C4A12D081C8856A700EFA524 /* woofUITests */,
+				C4A12CE51C8856A700EFA524 /* teaser */,
+				C4A12CFD1C8856A700EFA524 /* teaserTests */,
+				C4A12D081C8856A700EFA524 /* teaserUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,9 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A12CEC1C8856A700EFA524 /* GameScene.sks in Resources */,
 				C4A12CF81C8856A700EFA524 /* LaunchScreen.storyboard in Resources */,
-				C4A12CF51C8856A700EFA524 /* Assets.xcassets in Resources */,
+				C40674B51CE0D67A00FEA821 /* Existence-Light.ttf in Resources */,
+				C40674B91CE0DE5300FEA821 /* Roboto-Light.ttf in Resources */,
+				C40674BB1CE0ED1800FEA821 /* Roboto-Thin.ttf in Resources */,
 				C4A12CF31C8856A700EFA524 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +268,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A12CEE1C8856A700EFA524 /* GameScene.swift in Sources */,
+				C4C787131CDF1CFC000F3619 /* StartSquareAura.swift in Sources */,
+				C4FE71901CCDF115003CDF3A /* Stage.swift in Sources */,
+				C4C787151CDF6E16000F3619 /* StageScript.swift in Sources */,
 				C4A12CF01C8856A700EFA524 /* GameViewController.swift in Sources */,
+				C450C72E1CC8BC530068986C /* Enemy.swift in Sources */,
+				C4A12D1E1C88587200EFA524 /* Player.swift in Sources */,
 				C4A12CEA1C8856A700EFA524 /* AppDelegate.swift in Sources */,
+				C4FE71D01CD053AF003CDF3A /* ScoreLabel.swift in Sources */,
+				C450C7281CBFAE7D0068986C /* Teaser.swift in Sources */,
+				C4C787191CE06847000F3619 /* StartScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A12D031C8856A700EFA524 /* woofTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A12D0E1C8856A700EFA524 /* woofUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		C4A12D001C8856A700EFA524 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4A12CE51C8856A700EFA524 /* woof */;
+			target = C4A12CE51C8856A700EFA524 /* teaser */;
 			targetProxy = C4A12CFF1C8856A700EFA524 /* PBXContainerItemProxy */;
 		};
 		C4A12D0B1C8856A700EFA524 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4A12CE51C8856A700EFA524 /* woof */;
+			target = C4A12CE51C8856A700EFA524 /* teaser */;
 			targetProxy = C4A12D0A1C8856A700EFA524 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = woof/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.woof;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = teaser;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = woof/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.woof;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = teaser;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -431,8 +447,8 @@
 				INFOPLIST_FILE = woofTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.woofTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woof.app/woof";
+				PRODUCT_NAME = teaser;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teaser.app/teaser";
 			};
 			name = Debug;
 		};
@@ -443,8 +459,8 @@
 				INFOPLIST_FILE = woofTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.woofTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woof.app/woof";
+				PRODUCT_NAME = teaser;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teaser.app/teaser";
 			};
 			name = Release;
 		};
@@ -455,7 +471,7 @@
 				INFOPLIST_FILE = woofUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.woofUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = teaser;
 				TEST_TARGET_NAME = woof;
 				USES_XCTRUNNER = YES;
 			};
@@ -467,7 +483,7 @@
 				INFOPLIST_FILE = woofUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.woofUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = teaser;
 				TEST_TARGET_NAME = woof;
 				USES_XCTRUNNER = YES;
 			};
@@ -476,7 +492,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4A12CE11C8856A700EFA524 /* Build configuration list for PBXProject "woof" */ = {
+		C4A12CE11C8856A700EFA524 /* Build configuration list for PBXProject "teaser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A12D101C8856A700EFA524 /* Debug */,
@@ -485,29 +501,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4A12D121C8856A700EFA524 /* Build configuration list for PBXNativeTarget "woof" */ = {
+		C4A12D121C8856A700EFA524 /* Build configuration list for PBXNativeTarget "teaser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A12D131C8856A700EFA524 /* Debug */,
 				C4A12D141C8856A700EFA524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C4A12D151C8856A700EFA524 /* Build configuration list for PBXNativeTarget "woofTests" */ = {
+		C4A12D151C8856A700EFA524 /* Build configuration list for PBXNativeTarget "teaserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A12D161C8856A700EFA524 /* Debug */,
 				C4A12D171C8856A700EFA524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C4A12D181C8856A700EFA524 /* Build configuration list for PBXNativeTarget "woofUITests" */ = {
+		C4A12D181C8856A700EFA524 /* Build configuration list for PBXNativeTarget "teaserUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4A12D191C8856A700EFA524 /* Debug */,
 				C4A12D1A1C8856A700EFA524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

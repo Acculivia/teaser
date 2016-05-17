@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  woof
-//
-//  Created by 袁冠达 on 16/3/3.
-//  Copyright © 2016年 test. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

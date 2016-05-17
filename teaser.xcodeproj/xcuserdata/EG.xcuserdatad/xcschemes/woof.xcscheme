@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4A12CE51C8856A700EFA524"
-               BuildableName = "woof.app"
-               BlueprintName = "woof"
-               ReferencedContainer = "container:woof.xcodeproj">
+               BuildableName = "teaser.app"
+               BlueprintName = "teaser"
+               ReferencedContainer = "container:teaser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4A12CFD1C8856A700EFA524"
-               BuildableName = "woofTests.xctest"
-               BlueprintName = "woofTests"
-               ReferencedContainer = "container:woof.xcodeproj">
+               BuildableName = "teaser.xctest"
+               BlueprintName = "teaserTests"
+               ReferencedContainer = "container:teaser.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4A12D081C8856A700EFA524"
-               BuildableName = "woofUITests.xctest"
-               BlueprintName = "woofUITests"
-               ReferencedContainer = "container:woof.xcodeproj">
+               BuildableName = "teaser.xctest"
+               BlueprintName = "teaserUITests"
+               ReferencedContainer = "container:teaser.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4A12CE51C8856A700EFA524"
-            BuildableName = "woof.app"
-            BlueprintName = "woof"
-            ReferencedContainer = "container:woof.xcodeproj">
+            BuildableName = "teaser.app"
+            BlueprintName = "teaser"
+            ReferencedContainer = "container:teaser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4A12CE51C8856A700EFA524"
-            BuildableName = "woof.app"
-            BlueprintName = "woof"
-            ReferencedContainer = "container:woof.xcodeproj">
+            BuildableName = "teaser.app"
+            BlueprintName = "teaser"
+            ReferencedContainer = "container:teaser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4A12CE51C8856A700EFA524"
-            BuildableName = "woof.app"
-            BlueprintName = "woof"
-            ReferencedContainer = "container:woof.xcodeproj">
+            BuildableName = "teaser.app"
+            BlueprintName = "teaser"
+            ReferencedContainer = "container:teaser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

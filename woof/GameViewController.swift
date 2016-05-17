@@ -1,11 +1,3 @@
-//
-//  GameViewController.swift
-//  woof
-//
-//  Created by 袁冠达 on 16/3/3.
-//  Copyright (c) 2016年 test. All rights reserved.
-//
-
 import UIKit
 import SpriteKit
 
@@ -14,20 +6,18 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let scene = GameScene(fileNamed:"GameScene") {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
-            skView.presentScene(scene)
-        }
+        // Configure the view.
+        let skView = self.view as! SKView
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.frameInterval = 2
+        
+        /* Sprite Kit applies additional optimizations to improve rendering performance */
+        skView.ignoresSiblingOrder = true
+        
+        let startScene = StartScene(size:CGSizeMake(1334, 750))
+        startScene.scaleMode = .AspectFill
+        skView.presentScene(startScene)
     }
 
     override func shouldAutorotate() -> Bool {
