@@ -12,7 +12,7 @@ Due to some nasty bugs of SpriteKit as well as my lacking of experience in the f
 
 Maybe I should put effort on stuying WebGL & OpenGL?
 
-##Problem 1: Messy Messy Stage Script
+##Problem 1: Messy Stage Messy Script
 
 Behind the seems-beautiful appearence is but a mess, which I can't handle. teaser is written in swift and I was too inpatient to write this game out.
 
