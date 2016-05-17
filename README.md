@@ -12,13 +12,11 @@ Due to some nasty bugs of SpriteKit as well as my lacking of experience in the f
 
 Maybe I should put effort on stuying WebGL & OpenGL?
 
-And here I am to ask for suggestions on how to make this game get higher performance.
-
 ##Problem 1: Messy Messy Stage Script
 
 Behind the seems-beautiful appearence is but a mess, which I can't handle. teaser is written in swift and I was too inpatient to write this game out.
 
-You can easily find out how I write the script in StageScript.swift. I just nastily put 5 stages in a huge tuples and blah blah blah. So I truly ask for suggestion, how should I do, to avoid such a stupid doing.
+You can easily find out how I write the script in StageScript.swift. I just nastily put 5 stages in a huge tuple and blah blah blah. How should I do to avoid such a stupid doing?
 
 ##Problem 2: Maybe it is SpriteKit's fault
 
